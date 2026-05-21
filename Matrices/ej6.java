@@ -8,8 +8,6 @@ public class ej6 {
         Scanner teclado = new Scanner(System.in);
 
         int[] vec = new int[8];
-
-        // Cargar vector controlando repetidos
         for (int i = 0; i < vec.length; i++) {
 
             int num;
@@ -27,7 +25,6 @@ public class ej6 {
             vec[i] = num;
         }
 
-        // Mostrar vector
         System.out.println("\nVector cargado:");
 
         for (int i = 0; i < vec.length; i++) {
@@ -37,8 +34,6 @@ public class ej6 {
         teclado.close();
     }
 
-    // Versión modificada de buscar
-    // Busca solo hasta la posición cargada
     public static boolean buscar(int[] vec, int limite, int valor) {
 
         for (int i = 0; i < limite; i++) {
