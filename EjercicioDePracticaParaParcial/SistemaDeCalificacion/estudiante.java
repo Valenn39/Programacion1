@@ -6,6 +6,6 @@ public class estudiante {
     Float nota; 
 
     public static void main (String[] args){
-        promedioEstudiante = promedio 
+        promedioEstudiante = promedio;
     }
 }

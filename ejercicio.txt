@@ -1,1 +1,0 @@
-una array de 10 posiciones a b c d e b c a d e cuando elijan las posiciones 
